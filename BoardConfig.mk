@@ -26,6 +26,9 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-6.
 # Zipping options
 WITH_LZMA_OTA := true
 
+# Optimizations
+ROM_OPTIS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := xt1052,ghost,xt1053,ghost_retail,xt1055,ghost_usc,xt1056,ghost_sprint,xt1058,ghost_att,ghost_rcica,xt1060,ghost_verizon
 
