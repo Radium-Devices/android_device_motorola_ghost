@@ -2,5 +2,17 @@
   {
     "repository": "Radium_ghost",
     "target_path": "kernel/motorola/ghost"
+  },
+  {
+    "repository": "android_device_motorola_msm8960dt-common",
+    "target_path": "device/motorola/msm8960dt-common",
+    "remote": "cm",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "remote": "tm",
+    "revision": "cm-12.1"
   }
 ]
