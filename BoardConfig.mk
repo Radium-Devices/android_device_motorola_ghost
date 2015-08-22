@@ -24,7 +24,9 @@ LOCAL_PATH := device/motorola/ghost
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-6.0/bin
 
 # Zipping options
+ifneq ($(RADIUMBOT), true)
 WITH_LZMA_OTA := true
+endif
 
 # Optimizations
 ROM_OPTIS := true
